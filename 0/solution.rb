@@ -6,7 +6,7 @@ sample = true
 # sample = false
 
 lines = File.read(sample ? 'sample.txt' : 'input.txt').split("\n").map do |line|
-  line.strip.split(' ')
+  line.strip
 end
 
 puts "part one: #{''}"
